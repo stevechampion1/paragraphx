@@ -1,0 +1,15 @@
+[project]
+name = "paragraphx"
+version = "0.0.1"
+description = "A JAX-based, GPU-accelerated graph analytics library."
+dependencies = [
+    "numpy",
+    "jax[gpu]", # 或者 jax[cpu] 如果你没有NVIDIA GPU
+    "networkx",
+    "matplotlib",
+    "tqdm",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

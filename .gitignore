@@ -1,0 +1,31 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+venv.bak/
+.venv/
+env/
+env.bak/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+sdist/
+wheel/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
